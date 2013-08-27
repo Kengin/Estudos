@@ -9,7 +9,7 @@ O Grunt JS é um poderoso task runner (automatizador de tarefas), que roda no te
 Instalação
 
 
-1 - instalar o nodejs.  * [http://nodejs.org/](http://nodejs.org/)* 
+1 - Antes de tudo, instalar o nodejs.  [http://nodejs.org/](http://nodejs.org/)
 
 2 - Depois de instalar o nodejs, Abra o cmd/terminal e digite: 
 	
@@ -22,7 +22,7 @@ Instalação
 	npm install grunt --save-dev    // será criada a pasta node modules dentro da pasta do seu projeto
 
 	
-4 - instale os plugins crie os arquivos * [Gruntfile.js](http://nodejs.org/)* e * [package.json](http://nodejs.org/)* e os configure.
+4 - instale os plugins crie os arquivos [Gruntfile.js](https://github.com/gustavomeloweb/Estudos/blob/master/Grunt-JS/src/Gruntfile.js) e [package.json](https://github.com/gustavomeloweb/Estudos/blob/master/Grunt-JS/src/package.json) e os configure.
 
 
 5 - instale os plugins via terminal, como por exemplo: 
@@ -52,5 +52,5 @@ Instalação
 	grunt deploy (executar as tarefas que estão com o nome deploy).
 
 	
-OBS: Se for usar tranferência FTP, você terá que criar um arquivo nomeado * [".ftppass"](http://nodejs.org/)* colocando o nome e senha do host, por exemplo:
+OBS: Se for usar tranferência FTP, você terá que criar um arquivo nomeado [.ftppass](https://github.com/gustavomeloweb/Estudos/blob/master/Grunt-JS/src/.ftppass) colocando o nome e senha do host, por exemplo:
 
