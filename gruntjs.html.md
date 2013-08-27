@@ -1,18 +1,18 @@
-```
-GRUNT JS
-```
 
-# O Grunt JS é um poderoso task runner (automatizador de tarefas), que roda no terminal, e é gerenciado pelo NPM, o gerenciador de pacotes para Node. Podemos fazer várias tarefas interessantes pelo grunt, como comprimir, concatenar, fazer deploy, entre outras.
+#GRUNT JS
 
-```
+
+O Grunt JS é um poderoso task runner (automatizador de tarefas), que roda no terminal, e é gerenciado pelo NPM, o gerenciador de pacotes para Node. Podemos fazer várias tarefas interessantes pelo grunt, como comprimir, concatenar, fazer deploy, entre outras.
+
+
 Instalação
-```
 
-1 - instalar o nodeJS.  *> [http://nodejs.org/](http://nodejs.org/)* 
+
+1 - instalar o nodeJS.  * [http://nodejs.org/](http://nodejs.org/)* 
 
 2 - Depois de instalar o nodeJS, Abra o cmd/terminal e digite: 
 	
-	``` html
+	``` 
 	 npm install -g grunt-cli
 	```
 
