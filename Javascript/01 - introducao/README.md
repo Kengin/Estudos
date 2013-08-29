@@ -4,29 +4,29 @@
 
 Javascript não é a mesma coisa que java.
 
-## ESTRUTURA LÉXICA
+## Estrutura léxica
 
 A estrutura léxica é a sintaxe de nível mais baixo na linguagem, onde são especificados os detalhes de como são os nome de variáveis, os caracteres delimitadores para comentário e como uma instrução do programa é separada da seguinte.
 
 
-###1.1 - CONJUNTO DE CARACTERES
+###1.1 - Conjunto de caracteres
 
-* Os programas javascript são escritos com o conjunto de caracteres unicode. Unicode é um superconjunto de ASCII Latin-1 e suporta praticamente todos os idiomas escritos usados hoje em dia.
+Os programas javascript são escritos com o conjunto de caracteres unicode. Unicode é um superconjunto de ASCII Latin-1 e suporta praticamente todos os idiomas escritos usados hoje em dia.
 
 
-###1.2 - DIFERENCIAÇÃO ENTRE LETRAS MAIÚSCULAS E MINÚSCULAS
+###1.2 - Diferenciação entre letras maiúsculas e minúsculas
 
-* O javascript é uma liguagem case sensitive, ou seja diferencia letras maiúsculas de minúsculas.
+O javascript é uma liguagem case sensitive, ou seja diferencia letras maiúsculas de minúsculas.
 
-###1.3 - ESPAÇOS EM BRANCO
+###1.3 - Espaços em branco
 
-* Ignora os espaços em branco que aparecem entre sinais em programas.
+Ignora os espaços em branco que aparecem entre sinais em programas.
 
-###1.4 - COMENTÁRIOS
+###1.4 - Comentários
 
-* comentário podem ser feitos de duas formas:
+comentário podem ser feitos de duas formas:
 
-```
+```js
 // comentário de uma linha
 
 /*
@@ -36,11 +36,11 @@ linhas
 */
 ```
 
-###1.5 - LITERAIS
+###1.5 - Literais
 
-* literal é um valor de dados que aparece diretamente em um programa. por exemplo:
+*literal é um valor de dados que aparece diretamente em um programa. por exemplo:
 
-```
+```js
 12  				// o número doze
 1.2 				// o número um ponto dois
 "hello"				//uma string de texto
@@ -48,17 +48,17 @@ true  				//um valor booleano
 /javascript/gi      //uma expressão regular
 null 				//ausência de objeto
 ```
-###1.6 - IDENTIFICADORES
+###1.6 - Identificadores
 
-* identificador é simplismente um nome, no qual são usados para dar nome as variáveis, funções e para fornecer rótulos para certos laços no código javascript.
+Identificador é simplismente um nome, no qual são usados para dar nome as variáveis, funções e para fornecer rótulos para certos laços no código javascript.
 
-OBS: um identificador sempre deve começar com uma letra, um sublinhado (_) ou um cifrã ($). números não dever ser colocados inicialmente para distinguir identificadores de números facilmente.
+	*OBS: um identificador sempre deve começar com uma letra, um sublinhado (_) ou um cifrã ($). números não dever ser colocados inicialmente para distinguir identificadores de números facilmente.
 
-###1.7 - PALAVRAS RESERVADAS
+###1.7 - Palavras reservadas
 
-* No javascript existem palavras que são reservadas e não podem ser utilizadas como identificadores. Elas são:
+No javascript existem palavras que são reservadas e não podem ser utilizadas como identificadores. Elas são:
 
-```
+```js
 break
 delete
 if
@@ -88,7 +88,8 @@ void
 ```
 
 Outras que são reservadas para um futuro:
-```
+
+```js
 class
 const
 enum
@@ -98,15 +99,15 @@ import
 super
 ```
 
-###1.8 - PONTO E VÍRGULAS OPCIONAIS
+###1.8 - Ponto e vírgulas opcionais
 
-* O javascript utiliza o ponto e vírgula para separar instruções. Isso é importante para tornar um código limpo, melhor de ser visualizado.
+O javascript utiliza o ponto e vírgula para separar instruções. Isso é importante para tornar um código limpo, melhor de ser visualizado.
 	
-	Ocasiões que pode ser omitido o ponto e vírgula:
+Ocasiões que pode ser omitido o ponto e vírgula:
 
-	- Entre duas instruções, caso as mesmas estejam em linhas separadas.
-	- Quando for o final do programa
-	- Se o proximo sinal é uma chave de fechamento.
+- Entre duas instruções, caso as mesmas estejam em linhas separadas.
+- Quando for o final do programa
+- Se o proximo sinal é uma chave de fechamento.
 
 
 
