@@ -4,7 +4,7 @@
 
 Javascript não é a mesma coisa que java.
 
-## Estrutura léxica
+## ESTRUTURA LÉXICA
 
 A estrutura léxica é a sintaxe de nível mais baixo na linguagem, onde são especificados os detalhes de como são os nome de variáveis, os caracteres delimitadores para comentário e como uma instrução do programa é separada da seguinte.
 
