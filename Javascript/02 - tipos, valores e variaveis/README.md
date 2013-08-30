@@ -34,18 +34,18 @@ Todos os números em javascript são representados como valores em ponto flutuan
 ####Inteiros
 Em um programa javascript, um iteiro de base 10 é escrito  como uma sequência de dígitos:
 
-´´´js
+```js
 0
 3
 10000
-´´´
+```
 
 ####Ponto flutuante
 Podem ter um ponto decimal, usam a sintaxe tradicional dos números reais. Um valor real é representado como a parte inteira do número, seguida de um ponto decimal e a parte fracionária do número. Podem também ser representados usando-se notação exponencial.
 
-´´´js
+```js
 3.14
 22.3
 .6666
 3.02e22
-´´´
+```
