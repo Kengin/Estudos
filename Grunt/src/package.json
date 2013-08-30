@@ -1,0 +1,15 @@
+{
+  "name": "gustavomelo",
+  "version": "0.1.0",
+  "description": "descrição simples do que se trata o projeto",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-contrib-compass": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-ftp-deploy": "0.0.9",
+    "match": "~1.0.0",
+    "grunt-contrib-htmlmin": "~0.1.3"
+  }
+}
