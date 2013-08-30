@@ -1,7 +1,8 @@
 #TIPOS, VALORES E VARIÁVEIS
 
-
 Os programas de computador funcionam manipulando valores. Os tipos de valores que podem ser representados e manipulados em uma linguagem de programação são conhecidos como tipos, e uma das características mais fundamentais numa linguagem é o conjunto de tipos que ela aceita. Quando se precisa manter um valor para uso futuro, ele é atribuido à uma variável. Uma variável é nada mais nada menos do que um identificador (nome) para o valor.
+
+##TIPOS
 
 Os tipos em javascript podem ser divididos em duas categorias: tipos primitivos (ou imutáveis, ou seja, não podem ser alterados) e tipos de objeto(ou mutáveis, ou seja, podem ser alterados). 
 
@@ -26,3 +27,25 @@ As variável são declaradas com a palavra-chave var.
 
 O javascript utiliza escopo léxico ou estático. As variáveis declaradas fora de uma função são consideradas variáveis globais e são visíveis por toda parte do código. Já as declaradas dentro de uma função, têm escopo de função, ou seja, so seram visíveis apenas para o código que aparece dentro da função.
 
+###2.1 - Números
+
+Todos os números em javascript são representados como valores em ponto flutuante. Quando um número aparece diretamente em um programa javascript, ele é chamado de literal numérico
+
+####Inteiros
+Em um programa javascript, um iteiro de base 10 é escrito  como uma sequência de dígitos:
+
+´´´js
+0
+3
+10000
+´´´
+
+####Ponto flutuante
+Podem ter um ponto decimal, usam a sintaxe tradicional dos números reais. Um valor real é representado como a parte inteira do número, seguida de um ponto decimal e a parte fracionária do número. Podem também ser representados usando-se notação exponencial.
+
+´´´js
+3.14
+22.3
+.6666
+3.02e22
+´´´
