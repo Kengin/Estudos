@@ -18,15 +18,6 @@ As funções que são escritas para serem usadas (com o operador new) para inici
 
 - Error (define objetos que representam erros de sintaxe e de execução)
 
-
-##VARIÁVEIS
-
-variáveis em javascript não são tipadas: ou seja, você pode atribuir  um valor de qualquer tipo a uma variável e, posteriormente, atribuir um valor de tipo diferente para a mesma variável. 
-
-As variável são declaradas com a palavra-chave var.
-
-O javascript utiliza escopo léxico ou estático. As variáveis declaradas fora de uma função são consideradas variáveis globais e são visíveis por toda parte do código. Já as declaradas dentro de uma função, têm escopo de função, ou seja, so seram visíveis apenas para o código que aparece dentro da função.
-
 ###2.1 - Números
 
 Todos os números em javascript são representados como valores em ponto flutuante. Quando um número aparece diretamente em um programa javascript, ele é chamado de literal numérico
@@ -49,3 +40,13 @@ Podem ter um ponto decimal, usam a sintaxe tradicional dos números reais. Um va
 .6666
 3.02e22
 ```
+
+
+##VARIÁVEIS
+
+variáveis em javascript não são tipadas: ou seja, você pode atribuir  um valor de qualquer tipo a uma variável e, posteriormente, atribuir um valor de tipo diferente para a mesma variável. 
+
+As variável são declaradas com a palavra-chave var.
+
+O javascript utiliza escopo léxico ou estático. As variáveis declaradas fora de uma função são consideradas variáveis globais e são visíveis por toda parte do código. Já as declaradas dentro de uma função, têm escopo de função, ou seja, so seram visíveis apenas para o código que aparece dentro da função.
+
