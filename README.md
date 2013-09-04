@@ -1,6 +1,6 @@
-Estudos web - Gustavo Melo
+# Estudos web - por Gustavo Melo
 
+* Grunt
 
-01 - Introdução
-02 - Tipos
+* Javascript
 
