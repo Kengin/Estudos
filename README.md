@@ -1,2 +1,5 @@
-Estudos web - Gustavo Melo
+# Estudos web - por Gustavo Melo
+
+* Grunt
+* Javascript
 
